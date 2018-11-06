@@ -49,3 +49,69 @@ v8.12.0
 - [React Developer Tools](https://addons.mozilla.org/en-US/firefox/addon/react-devtools/) extension for Firefox.
 - [CMDer](http://cmder.net/): Command Line Emulator for Windows.
 - [Create React App 2](https://github.com/facebook/create-react-app)
+
+
+
+### 1. Intro to React
+
+- Everything in React is a component
+- A component is a reusable piece of code
+- There are a secret tool: WebPack (it's a Bundler (this select all the files and join them in one))
+- <David> Webpack is a bundler.
+- Hot Reloading: reload the page automaticaly.
+
+
+
+### How to declare a component
+
+Both are equivalent
+
+```jsx
+class Dave extends React.Component {
+  render() {
+    return <p>"What do you think you are doing, Dave?"</p>;
+  }
+}
+```
+
+```jsx
+const Dave = () => {
+  return <p>"What do you think you are doing, Dave?"</p>;
+};
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+- Herramienta oculta: WebPack (es un bundler) selecciona todos los archivos y los une en uno solo.
+- Hot Raloading: permite que cuando cambiamos el código lo recargue automaticamnete
