@@ -81,6 +81,9 @@ const Dave = () => {
 ```
 
 
+Component structure
+
+```jsx
 
 
 
